@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro do grêmio Colorado</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/cadastro.css'>
+    <script src='/js/cadastro.js'></script>
+   
+</head>
+<body>
+    <a href="/html/paginainicial.html"><button id="volt" type="menu">⇽</button></a>
+    <div class="bloco">
+    <h1>Cadastro</h1>  
+    <hr>
+    <form action="/html/confirmação.html" method="get" onsubmit="return validarCadastro()">
+    <label for="nome">Nome: </label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">E-mail: </label><br>
+    <input type="email" id="email" name="email" required><br><br>
+       
+    <label for="tel">Telefone: </label><br>
+    <input type="tel" id="tel" name="tel"><p></p>
+   
+    <label for="age">Idade: </label><br>
+    <input type="date" id="age" name="age" required><p></p>
+    </div>
+
+    <div class="bloco1">
+    <img src="/imagens/1693921272147.jpg"><br>
+    <label for="turms">Turmas: </label><br>
+    <select name="turms" id="turms" required>
+        <option>1° A</option>
+        <option>1° B</option>
+        <option>1° C</option>
+        <option>2° A</option>
+        <option>2° B</option>
+        <option>2° C</option>
+        <option>3° A</option>
+        <option>3° B</option>
+        <option>3° C</option>
+        <option>4° A</option>
+        <option>4° B</option>
+        <option>4° C</option>
+        <option>5° A</option>
+        <option>5° B</option>
+        <option>5° C</option>
+        <option>6° A</option>
+        <option>6° B</option>
+        <option>6° C</option>
+        <option>7° A</option>
+        <option>7° B</option>
+        <option>7° C</option>
+        <option>8° A</option>
+        <option>8° B</option>
+        <option>8° C</option>
+        <option>9° A</option>
+        <option>9° B</option>
+        <option>9° C</option>
+        <option>1° A Médio</option>
+        <option>1° B Médio</option>
+        <option>1° C Médio</option>
+        <option>2° A Médio</option>
+        <option>2° B Médio</option>
+        <option>2° C Médio</option>
+        <option>3° A Médio</option>
+        <option>3° B Médio</option>
+        <option>3° C Médio</option>
+    </select><br><br>
+   
+    <label for="sport">Esportes favoritos: </label><br>
+    <select name="sport" id="sport">
+        <option>Futebol</option>
+        <option>Volei</option>
+        <option>Handebol</option>
+        <option>Basquete</option>
+        <option>Tenis</option>
+        <option>Futsal</option>
+        <option>Capoeira</option>
+        <option>Dança</option>
+        <option>E-Sport</option>
+        <option>Ciclismo</option>
+    </select><br><br>
+   
+    <label for="rad">Deseja receber novidades?</label><br>
+    <input type="radio" id="sim" name="rad" required>Sim
+    <input type="radio" id="nao" name="rad">Não<br><br>
+</div><br><br>
+
+<div class="botao">
+    <button id="cadas" type="submit">Cadastrar</button>
+    <button id="limp" type="reset">Limpar Dados</button>
+</form>
+    <button id="form" type="button" value="json" onclick="guardar()">Gerar JSON</button>
+</div>
+    <p id="dadosjson"></p>
+</body>
+</html>

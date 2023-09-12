@@ -1,0 +1,92 @@
+body{
+    background-image: url(/imagens/1693923317369.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+.botao{
+    text-align: center;
+}
+.bloco{
+    background-color: #e3e2ddea;
+    border-radius: 13px;
+    padding: 8px 8px;
+    color: white;
+    width: 38%;
+    height: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.bloco1{
+    background-color: #e3e2ddea;
+    border-radius: 13px;
+    padding: 8px 8px;
+    color: white;
+    width: 38%;
+    height: 10%;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: -27.7%;
+}
+#cadas{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px solid black;
+    box-shadow:  0.2em 0.1em 0.3em rgba(0, 0, 0, 0.311);
+    margin-left: 40%;
+}
+#limp{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px solid black;
+    box-shadow:  0.2em 0.1em 0.3em rgba(0, 0, 0, 0.311);
+}
+#form{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px solid black;
+    box-shadow:  0.2em 0.1em 0.3em rgba(0, 0, 0, 0.311);
+
+}
+#dadosjson{
+    font-size: 25px;
+}
+h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+label{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 30px;
+}
+input{
+    border-radius: 5px;
+    border: 1.8px solid black;
+}
+#volt{
+    width: 50px;
+    height: 30px;
+    background-color: #e5332ac3;
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    text-align: center;
+}

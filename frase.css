@@ -1,0 +1,25 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/Imagens/Garoto-praticando-futebol-infantil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: #645419;
+    background-color:#F6EEA9;
+
+}
+.fundo {
+    background-color: #f6eea9ba;
+    font-size: 20px;
+    border-radius: 8px ;
+}
+button{
+    background-color:#F6EEA9;
+    border-color: #EBDD60;
+    font-family:cursive;
+    position: absolute;
+    margin-left: -48%;
+    margin-top: 0.5%;
+}
